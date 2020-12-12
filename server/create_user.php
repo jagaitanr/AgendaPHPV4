@@ -23,10 +23,12 @@
 
 		$insert->execute();
 
-		$email = 'usuario@mail.com';
-		$nombre = 'usuario';
-		$password = password_hash($d_password, PASSWORD_DEFAULT);
-		$fecha_nacimiento = '1997-12-03';
+		
+
+		$email = 'DiegoA@hotmail.com';
+		$nombre = 'Diego Alejandro';
+		$password = password_hash("Pescado", PASSWORD_DEFAULT);
+		$fecha_nacimiento = '2011-12-27';
 
 		$insert->execute();
 		$response['resultado'] = "1";
